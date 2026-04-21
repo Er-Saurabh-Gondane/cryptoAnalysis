@@ -1,0 +1,14 @@
+# Create the file with these libraries
+@"
+numpy>=2.4.3
+pandas>=3.0.1
+scipy>=1.17.1
+matplotlib>=3.10.8
+seaborn>=0.13.2
+cryptography>=46.0.5
+pycryptodome>=3.23.0
+psutil>=7.2.2
+scikit-learn>=1.8.0
+joblib>=1.5.3
+tabulate>=0.10.0
+"@ | Set-Content -Path requirements.txt -Encoding utf8

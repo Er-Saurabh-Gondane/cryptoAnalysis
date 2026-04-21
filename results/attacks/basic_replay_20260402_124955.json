@@ -1,0 +1,13 @@
+{
+  "test_name": "Basic Replay",
+  "first_attempt": {
+    "valid": true,
+    "message": "Valid"
+  },
+  "replay_attempt": {
+    "valid": false,
+    "message": "Replay attack detected"
+  },
+  "attack_blocked": true,
+  "expected_behavior": "First packet accepted, replayed packet rejected"
+}

@@ -1,0 +1,97 @@
+{
+  "attack_name": "Brute Force Demo",
+  "timestamp": "2026-04-02T13:04:57.845752",
+  "toy_demo": {
+    "toy_plaintext": "IOT",
+    "toy_ciphertext_hex": "70766d",
+    "secret_key": 57,
+    "recovered_key": 57,
+    "key_bits": 8,
+    "keyspace_size": 256,
+    "key_recovered": true,
+    "attempts": 58,
+    "elapsed_ms": 0.5907000158913434,
+    "attempts_per_second": 98188.58716717699,
+    "keyspace_explored_percent": 22.65625,
+    "note": "Toy 8-bit XOR demo only, not representative of real lightweight ciphers"
+  },
+  "real_algorithm_analysis": [
+    {
+      "algorithm": "PRESENT-80",
+      "type": "Lightweight Block Cipher",
+      "key_size_bits": 80,
+      "log10_years": 7.282563050519148,
+      "years_estimate": "19.17 million years",
+      "feasibility": "Extremely impractical",
+      "comparison": "Legacy security level (phasing out)"
+    },
+    {
+      "algorithm": "PRESENT-128",
+      "type": "Lightweight Block Cipher",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "SIMON-64/128",
+      "type": "Lightweight Block Cipher",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "SPECK-64/128",
+      "type": "Lightweight Block Cipher",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "GIFT-64/128",
+      "type": "Lightweight Block Cipher",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "TinyJambu-128",
+      "type": "Authenticated Cipher",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "AES-128",
+      "type": "Standard (Reference)",
+      "key_size_bits": 128,
+      "log10_years": 21.732002842390244,
+      "years_estimate": "5395141535403.01 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "NIST recommended minimum for 2030+"
+    },
+    {
+      "algorithm": "AES-256",
+      "type": "Standard (Reference)",
+      "key_size_bits": 256,
+      "log10_years": 60.26384228737984,
+      "years_estimate": "1835871531540404940805451528716620390045702275727360.00 billion years",
+      "feasibility": "Computationally infeasible",
+      "comparison": "Stronger than all known practical attacks"
+    }
+  ],
+  "summary": {
+    "toy_demo_successful": true,
+    "real_keys_bruteforce_practical": false,
+    "note": "Real algorithms are computationally infeasible to brute force"
+  }
+}

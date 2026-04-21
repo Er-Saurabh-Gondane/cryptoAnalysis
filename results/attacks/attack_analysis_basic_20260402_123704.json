@@ -1,0 +1,164 @@
+{
+  "timestamp": "2026-04-02T12:37:03.636842",
+  "mode": "basic",
+  "replay_attack": {
+    "test_name": "Basic Replay",
+    "first_attempt": {
+      "valid": true,
+      "message": "Valid"
+    },
+    "replay_attempt": {
+      "valid": false,
+      "message": "Replay attack detected"
+    },
+    "attack_blocked": true,
+    "expected_behavior": "First packet accepted, replayed packet rejected"
+  },
+  "mitm_attack": {
+    "test_name": "Payload Tampering",
+    "original_valid": true,
+    "tampered_valid": false,
+    "tampered_message": "Replay attack detected",
+    "attack_blocked": true,
+    "tampering_type": "Modified sensor value"
+  },
+  "brute_force_demo": {
+    "attack_name": "Brute Force Demo",
+    "timestamp": "2026-04-02T12:37:03.634803",
+    "toy_demo": {
+      "toy_plaintext": "IOT",
+      "toy_ciphertext_hex": "70766d",
+      "secret_key": 57,
+      "recovered_key": 57,
+      "key_bits": 8,
+      "keyspace_size": 256,
+      "key_recovered": true,
+      "attempts": 58,
+      "elapsed_ms": 0.06829999620094895,
+      "attempts_per_second": 849194.7763709269,
+      "keyspace_explored_percent": 22.65625,
+      "note": "Toy 8-bit XOR demo only, not representative of real lightweight ciphers"
+    },
+    "real_algorithm_analysis": [
+      {
+        "algorithm": "PRESENT-80",
+        "type": "Lightweight Block Cipher",
+        "key_size_bits": 80,
+        "log10_years": 7.282563050519148,
+        "years_estimate": "19.17 million years",
+        "feasibility": "Extremely impractical",
+        "comparison": "Legacy security level (phasing out)"
+      },
+      {
+        "algorithm": "PRESENT-128",
+        "type": "Lightweight Block Cipher",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "SIMON-64/128",
+        "type": "Lightweight Block Cipher",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "SPECK-64/128",
+        "type": "Lightweight Block Cipher",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "GIFT-64/128",
+        "type": "Lightweight Block Cipher",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "TinyJambu-128",
+        "type": "Authenticated Cipher",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "AES-128",
+        "type": "Standard (Reference)",
+        "key_size_bits": 128,
+        "log10_years": 21.732002842390244,
+        "years_estimate": "5395141535403.01 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "NIST recommended minimum for 2030+"
+      },
+      {
+        "algorithm": "AES-256",
+        "type": "Standard (Reference)",
+        "key_size_bits": 256,
+        "log10_years": 60.26384228737984,
+        "years_estimate": "1835871531540404940805451528716620390045702275727360.00 billion years",
+        "feasibility": "Computationally infeasible",
+        "comparison": "Stronger than all known practical attacks"
+      }
+    ],
+    "summary": {
+      "toy_demo_successful": true,
+      "real_keys_bruteforce_practical": false,
+      "note": "Real algorithms are computationally infeasible to brute force"
+    }
+  },
+  "summary_rows": [
+    {
+      "Attack": "Replay Attack",
+      "Target": "Packet Replay",
+      "Expected": "Replay should be rejected",
+      "Observed": "Replay attack detected",
+      "Blocked": true,
+      "Status": "\u2705 Protected"
+    },
+    {
+      "Attack": "MITM Tampering",
+      "Target": "Data Integrity",
+      "Expected": "Modified packet should fail MAC",
+      "Observed": "MITM tampering result not available",
+      "Blocked": true,
+      "Status": "\u2705 Protected"
+    },
+    {
+      "Attack": "Brute Force (Toy)",
+      "Target": "Toy 8-bit Key",
+      "Expected": "Key should be recoverable",
+      "Observed": "Recovered: True",
+      "Blocked": false,
+      "Status": "\u26a0\ufe0f Demo Only"
+    },
+    {
+      "Attack": "Brute Force (Real)",
+      "Target": "128-bit Keys",
+      "Expected": "Should be infeasible",
+      "Observed": "Theoretically infeasible",
+      "Blocked": true,
+      "Status": "\u2705 Resistant"
+    }
+  ],
+  "overall_summary": {
+    "replay_protection_working": true,
+    "integrity_protection_working": true,
+    "toy_bruteforce_demo_working": true,
+    "real_keyspace_resistance_supported": true,
+    "attacks_blocked": 3,
+    "total_attacks": 4
+  }
+}

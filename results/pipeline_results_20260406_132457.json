@@ -1,0 +1,110 @@
+{
+  "timestamp": "2026-04-06T13:22:46.204732",
+  "args": {
+    "all": false,
+    "interactive": false,
+    "quick": true,
+    "communication": true,
+    "benchmark": true,
+    "attacks": true,
+    "statistics": true,
+    "report": true,
+    "duration": 30,
+    "comm_mode": "parallel",
+    "comprehensive_attacks": false
+  },
+  "stages": {
+    "communication": {
+      "mode": "parallel",
+      "duration": 30,
+      "sensors": [
+        "temperature",
+        "heart_rate",
+        "blood_pressure"
+      ],
+      "status": "completed"
+    },
+    "benchmark": {
+      "shape": [
+        18,
+        32
+      ],
+      "columns": [
+        "cipher",
+        "block_size",
+        "key_size",
+        "message_size_bytes",
+        "message_size_bits",
+        "data_size_bytes",
+        "correctness_passed",
+        "encryption_time_ms",
+        "encryption_time_std_ms",
+        "encryption_time_p95_ms",
+        "decryption_time_ms",
+        "decryption_time_std_ms",
+        "decryption_time_p95_ms",
+        "latency_time_ms",
+        "response_time_ms",
+        "network_delay_ms",
+        "throughput_mbps",
+        "memory_current_kb",
+        "memory_peak_kb",
+        "process_cpu_time_sec",
+        "process_cpu_util_percent",
+        "iterations_per_second",
+        "benchmark_iterations",
+        "throughput_iterations",
+        "cpu_measure_duration_sec",
+        "benchmark_timestamp",
+        "python_version",
+        "platform",
+        "processor",
+        "cpu_count_logical",
+        "cpu_count_physical",
+        "memory_total_gb"
+      ]
+    },
+    "attacks": {
+      "mode": "basic",
+      "summary": {
+        "replay_protection_working": true,
+        "integrity_protection_working": true,
+        "toy_bruteforce_demo_working": true,
+        "real_keyspace_resistance_supported": true,
+        "attacks_blocked": 3,
+        "total_attacks": 4
+      }
+    },
+    "statistics": {
+      "analyses": [
+        "timestamp",
+        "data_shape",
+        "descriptive_statistics",
+        "comparative_statistics",
+        "correlation_analysis",
+        "trend_analysis",
+        "outlier_detection",
+        "confidence_intervals"
+      ]
+    },
+    "report": {
+      "html": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\reports\\report_20260406_132450.html",
+      "pdf": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\reports\\report_20260406_132450.pdf",
+      "charts": {
+        "encryption_time": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\encryption_time_20260406_132445.png",
+        "decryption_time": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\decryption_time_20260406_132445.png",
+        "throughput": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\throughput_20260406_132445.png",
+        "memory": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\memory_20260406_132445.png",
+        "cpu": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\cpu_20260406_132445.png",
+        "latency": "C:\\Users\\saura\\Desktop\\IoT_CryptoProject\\results\\graphs\\latency_20260406_132445.png"
+      },
+      "data_loaded": {
+        "benchmark": true,
+        "attacks": true,
+        "charts": 6
+      }
+    }
+  },
+  "status": "success",
+  "execution_time_seconds": 130.9241006374359
+}

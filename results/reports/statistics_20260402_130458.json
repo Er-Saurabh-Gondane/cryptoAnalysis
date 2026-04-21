@@ -1,0 +1,2316 @@
+{
+  "timestamp": "2026-04-02T13:04:58.862570",
+  "data_shape": {
+    "rows": 18,
+    "columns": 32
+  },
+  "descriptive_statistics": [
+    {
+      "cipher": "PRESENT-80",
+      "metric": "encryption_time_ms",
+      "mean": 8.750981664052233,
+      "median": 5.404087998904288,
+      "std": 7.4065844458951275,
+      "variance": 54.857493154175636,
+      "min": 1.8287919973954558,
+      "max": 19.020064995856956,
+      "range": 17.1912729984615,
+      "q1": 3.616439998149872,
+      "q3": 12.212076497380622,
+      "iqr": 8.59563649923075,
+      "skewness": 0.5855488750343808,
+      "kurtosis": -1.5000000000000004,
+      "cv": 84.63718392098004
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "decryption_time_ms",
+      "mean": 10.4396813333733,
+      "median": 6.515371002606116,
+      "std": 8.880905523785488,
+      "variance": 78.87048292240358,
+      "min": 2.0695779990637675,
+      "max": 22.73409499845002,
+      "range": 20.66451699938625,
+      "q1": 4.292474500834942,
+      "q3": 14.624733000528067,
+      "iqr": 10.332258499693125,
+      "skewness": 0.5765410502265572,
+      "kurtosis": -1.5,
+      "cv": 85.0687414700604
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "throughput_mbps",
+      "mean": 0.013212436038069347,
+      "median": 0.01321600897741956,
+      "std": 0.00011302765233148332,
+      "variance": 1.2775250191566666e-08,
+      "min": 0.01307225411736477,
+      "max": 0.013349045019423706,
+      "range": 0.0002767909020589352,
+      "q1": 0.013144131547392166,
+      "q3": 0.013282526998421633,
+      "iqr": 0.00013839545102946674,
+      "skewness": -0.04738520699810515,
+      "kurtosis": -1.499999999999997,
+      "cv": 0.8554641400405929
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "memory_peak_kb",
+      "mean": 5.849283854166667,
+      "median": 5.71484375,
+      "std": 0.2749057646847784,
+      "variance": 0.07557317945692274,
+      "min": 5.6005859375,
+      "max": 6.232421875,
+      "range": 0.6318359375,
+      "q1": 5.65771484375,
+      "q3": 5.9736328125,
+      "iqr": 0.31591796875,
+      "skewness": 0.616601672135664,
+      "kurtosis": -1.5000000000000029,
+      "cv": 4.699819183658741
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "process_cpu_util_percent",
+      "mean": 99.76256209659762,
+      "median": 99.77205063929001,
+      "std": 0.11521126555571101,
+      "variance": 0.013273635710948561,
+      "min": 99.6169528926578,
+      "max": 99.89868275784504,
+      "range": 0.28172986518723064,
+      "q1": 99.69450176597391,
+      "q3": 99.83536669856753,
+      "iqr": 0.14086493259361532,
+      "skewness": -0.12297803573464094,
+      "kurtosis": -1.4999999999999998,
+      "cv": 0.11548547183877936
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "encryption_time_ms",
+      "mean": 8.867642333110174,
+      "median": 5.374854001565836,
+      "std": 7.537055680527108,
+      "variance": 56.80720833136595,
+      "min": 1.8927329982398078,
+      "max": 19.335339999524876,
+      "range": 17.44260700128507,
+      "q1": 3.633793499902822,
+      "q3": 12.355097000545356,
+      "iqr": 8.721303500642534,
+      "skewness": 0.5956029413665349,
+      "kurtosis": -1.5,
+      "cv": 84.99503472738299
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "decryption_time_ms",
+      "mean": 10.340339001074122,
+      "median": 6.215714997379109,
+      "std": 8.844882312222529,
+      "variance": 78.23194311706696,
+      "min": 2.175798002281226,
+      "max": 22.629504003562033,
+      "range": 20.453706001280807,
+      "q1": 4.195756499830168,
+      "q3": 14.422609500470571,
+      "iqr": 10.226853000640403,
+      "skewness": 0.5980842123331963,
+      "kurtosis": -1.4999999999999998,
+      "cv": 85.53764350766208
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "throughput_mbps",
+      "mean": 0.013118774002861502,
+      "median": 0.013158711363450063,
+      "std": 0.0002946084020747534,
+      "variance": 8.679411057303957e-08,
+      "min": 0.012739646692876283,
+      "max": 0.013457963952258163,
+      "range": 0.0007183172593818801,
+      "q1": 0.012949179028163173,
+      "q3": 0.013308337657854113,
+      "iqr": 0.00035915862969094006,
+      "skewness": -0.20085008434712823,
+      "kurtosis": -1.5000000000000018,
+      "cv": 2.245700718759944
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "memory_peak_kb",
+      "mean": 5.871419270833333,
+      "median": 5.7109375,
+      "std": 0.3053319478898912,
+      "variance": 0.09322759840223525,
+      "min": 5.6044921875,
+      "max": 6.298828125,
+      "range": 0.6943359375,
+      "q1": 5.65771484375,
+      "q3": 6.0048828125,
+      "iqr": 0.34716796875,
+      "skewness": 0.6431986417645362,
+      "kurtosis": -1.4999999999999973,
+      "cv": 5.20030905315599
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "process_cpu_util_percent",
+      "mean": 99.38506221497472,
+      "median": 99.88740691808606,
+      "std": 0.8539644336516821,
+      "variance": 0.7292552539420382,
+      "min": 98.18277460733542,
+      "max": 100.0850051195027,
+      "range": 1.9022305121672787,
+      "q1": 99.03509076271074,
+      "q3": 99.98620601879438,
+      "iqr": 0.9511152560836393,
+      "skewness": -0.6788181773518988,
+      "kurtosis": -1.5000000000000002,
+      "cv": 0.8592482759677863
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 1.3786493348501,
+      "median": 0.8746000024257228,
+      "std": 1.0633295745675861,
+      "variance": 1.1306697841500837,
+      "min": 0.40370400180108845,
+      "max": 2.8576440003234893,
+      "range": 2.453939998522401,
+      "q1": 0.6391520021134056,
+      "q3": 1.866122001374606,
+      "iqr": 1.2269699992612004,
+      "skewness": 0.6045277435434412,
+      "kurtosis": -1.4999999999999996,
+      "cv": 77.12835655073967
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 1.3059996662195772,
+      "median": 0.8838000003015622,
+      "std": 1.0072501658229367,
+      "variance": 1.0145528965503334,
+      "min": 0.33890599792357534,
+      "max": 2.695293000433594,
+      "range": 2.3563870025100186,
+      "q1": 0.6113529991125688,
+      "q3": 1.7895465003675781,
+      "iqr": 1.1781935012550093,
+      "skewness": 0.5550963025491608,
+      "kurtosis": -1.4999999999999996,
+      "cv": 77.12484098396301
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.0821820647930994,
+      "median": 0.08448276593055541,
+      "std": 0.011144208411100594,
+      "variance": 0.00012419338111004522,
+      "min": 0.06752911623834851,
+      "max": 0.09453431221039428,
+      "range": 0.027005195972045773,
+      "q1": 0.07600594108445197,
+      "q3": 0.08950853907047485,
+      "iqr": 0.01350259798602288,
+      "skewness": -0.3008732228182695,
+      "kurtosis": -1.499999999999999,
+      "cv": 13.560389896697195
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "memory_peak_kb",
+      "mean": 6.232096354166667,
+      "median": 6.12109375,
+      "std": 0.2362801439182898,
+      "variance": 0.05582830641004774,
+      "min": 6.0146484375,
+      "max": 6.560546875,
+      "range": 0.5458984375,
+      "q1": 6.06787109375,
+      "q3": 6.3408203125,
+      "iqr": 0.27294921875,
+      "skewness": 0.6010030742106506,
+      "kurtosis": -1.5000000000000029,
+      "cv": 3.7913429204334617
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "process_cpu_util_percent",
+      "mean": 99.97285314080723,
+      "median": 99.97371690754662,
+      "std": 0.015598448159621636,
+      "variance": 0.0002433115849884036,
+      "min": 99.953331788934,
+      "max": 99.99151072594107,
+      "range": 0.038178937007074865,
+      "q1": 99.9635243482403,
+      "q3": 99.98261381674385,
+      "iqr": 0.019089468503551643,
+      "skewness": -0.08289295404556271,
+      "kurtosis": -1.4999999999998992,
+      "cv": 0.015602683798222633
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 0.5478386654673765,
+      "median": 0.33175099932122976,
+      "std": 0.44624134891286266,
+      "variance": 0.1991313414795712,
+      "min": 0.14238799747545272,
+      "max": 1.169376999605447,
+      "range": 1.0269890021299943,
+      "q1": 0.23706949839834124,
+      "q3": 0.7505639994633384,
+      "iqr": 0.5134945010649972,
+      "skewness": 0.6128109113310157,
+      "kurtosis": -1.4999999999999998,
+      "cv": 81.45488389947097
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 0.5753889998110632,
+      "median": 0.3480470000067726,
+      "std": 0.4691270898674536,
+      "variance": 0.22008022644750588,
+      "min": 0.1492849993519485,
+      "max": 1.2288350000744686,
+      "range": 1.07955000072252,
+      "q1": 0.24866599967936054,
+      "q3": 0.7884410000406206,
+      "iqr": 0.53977500036126,
+      "skewness": 0.6131030196788796,
+      "kurtosis": -1.4999999999999998,
+      "cv": 81.53216172389425
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.17256644844533084,
+      "median": 0.16501300318378206,
+      "std": 0.03961007962012618,
+      "variance": 0.0015689584075127352,
+      "min": 0.12827398437839113,
+      "max": 0.2244123577738193,
+      "range": 0.09613837339542816,
+      "q1": 0.1466434937810866,
+      "q3": 0.1947126804788007,
+      "iqr": 0.048069186697714095,
+      "skewness": 0.27910799546337106,
+      "kurtosis": -1.5000000000000004,
+      "cv": 22.95352310775213
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "memory_peak_kb",
+      "mean": 6.28125,
+      "median": 6.28125,
+      "std": 0.0,
+      "variance": 0.0,
+      "min": 6.28125,
+      "max": 6.28125,
+      "range": 0.0,
+      "q1": 6.28125,
+      "q3": 6.28125,
+      "iqr": 0.0,
+      "skewness": NaN,
+      "kurtosis": NaN,
+      "cv": 0.0
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "process_cpu_util_percent",
+      "mean": 99.9750257234665,
+      "median": 99.98156339899649,
+      "std": 0.016786204413408296,
+      "variance": 0.0002817766586087281,
+      "min": 99.9519930529024,
+      "max": 99.99152071850064,
+      "range": 0.039527665598242834,
+      "q1": 99.96677822594944,
+      "q3": 99.98654205874857,
+      "iqr": 0.019763832799128522,
+      "skewness": -0.5251245534347408,
+      "kurtosis": -1.5000000000005924,
+      "cv": 0.01679039769375941
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 7.438703000661917,
+      "median": 4.4927779998397455,
+      "std": 6.258274608514986,
+      "variance": 39.1660010755834,
+      "min": 1.683930999133736,
+      "max": 16.13940000301227,
+      "range": 14.455469003878534,
+      "q1": 3.0883544994867407,
+      "q3": 10.316089001426008,
+      "iqr": 7.227734501939267,
+      "skewness": 0.601783125579831,
+      "kurtosis": -1.5000000000000002,
+      "cv": 84.13126062376878
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 8.258280000688197,
+      "median": 5.035076001659036,
+      "std": 7.018977004523111,
+      "variance": 49.266038190024226,
+      "min": 1.739244001219049,
+      "max": 18.00051999918651,
+      "range": 16.26127599796746,
+      "q1": 3.3871600014390424,
+      "q3": 11.517798000422772,
+      "iqr": 8.13063799898373,
+      "skewness": 0.5919820494601222,
+      "kurtosis": -1.5000000000000002,
+      "cv": 84.99320686557238
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.015522932689036794,
+      "median": 0.0156239449614116,
+      "std": 0.0007033347704219476,
+      "variance": 4.946797992844937e-07,
+      "min": 0.01461547434324316,
+      "max": 0.016329378762455618,
+      "range": 0.0017139044192124586,
+      "q1": 0.01511970965232738,
+      "q3": 0.01597666186193361,
+      "iqr": 0.000856952209606231,
+      "skewness": -0.21246622816591454,
+      "kurtosis": -1.4999999999999982,
+      "cv": 4.5309400260344095
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "memory_peak_kb",
+      "mean": 5.917317708333333,
+      "median": 5.828125,
+      "std": 0.12613753778978778,
+      "variance": 0.015910678439670138,
+      "min": 5.828125,
+      "max": 6.095703125,
+      "range": 0.267578125,
+      "q1": 5.828125,
+      "q3": 5.9619140625,
+      "iqr": 0.1337890625,
+      "skewness": 0.7071067811865545,
+      "kurtosis": -1.4999999999999933,
+      "cv": 2.131667488668875
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "process_cpu_util_percent",
+      "mean": 98.95926702439102,
+      "median": 98.81834016846226,
+      "std": 0.6860964448918074,
+      "variance": 0.47072833169317696,
+      "min": 98.19834774054438,
+      "max": 99.86111316416647,
+      "range": 1.6627654236220906,
+      "q1": 98.50834395450332,
+      "q3": 99.33972666631436,
+      "iqr": 0.8313827118110453,
+      "skewness": 0.29943964360390224,
+      "kurtosis": -1.4999999999999838,
+      "cv": 0.6933119711999297
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "encryption_time_ms",
+      "mean": 1.8199059995822608,
+      "median": 1.7838160000974312,
+      "std": 0.10483743132223104,
+      "variance": 0.01099088700624351,
+      "min": 1.7134139989502728,
+      "max": 1.9624879996990785,
+      "range": 0.2490740007488057,
+      "q1": 1.748614999523852,
+      "q3": 1.8731519998982549,
+      "iqr": 0.12453700037440285,
+      "skewness": 0.475575474602909,
+      "kurtosis": -1.4999999999999998,
+      "cv": 5.760595950905998
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "decryption_time_ms",
+      "mean": 1.7840760001369442,
+      "median": 1.760559999383986,
+      "std": 0.05396150475071625,
+      "variance": 0.0029118439949615727,
+      "min": 1.7329609993612394,
+      "max": 1.858707001665607,
+      "range": 0.12574600230436772,
+      "q1": 1.7467604993726127,
+      "q3": 1.8096335005247965,
+      "iqr": 0.06287300115218386,
+      "skewness": 0.5709248568678541,
+      "kurtosis": -1.5000000000000029,
+      "cv": 3.0246191724217026
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "throughput_mbps",
+      "mean": 0.06210165942088077,
+      "median": 0.03898471078882935,
+      "std": 0.05164173801216145,
+      "variance": 0.0026668691049167212,
+      "min": 0.01366422827801367,
+      "max": 0.1336560391957993,
+      "range": 0.11999181091778563,
+      "q1": 0.026324469533421508,
+      "q3": 0.08632037499231432,
+      "iqr": 0.059995905458892815,
+      "skewness": 0.5817619083052543,
+      "kurtosis": -1.5,
+      "cv": 83.15677631441469
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "memory_peak_kb",
+      "mean": 4.90234375,
+      "median": 4.80859375,
+      "std": 0.13258252147247765,
+      "variance": 0.017578125,
+      "min": 4.80859375,
+      "max": 5.08984375,
+      "range": 0.28125,
+      "q1": 4.80859375,
+      "q3": 4.94921875,
+      "iqr": 0.140625,
+      "skewness": 0.7071067811865475,
+      "kurtosis": -1.5,
+      "cv": 2.7044721511517356
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "process_cpu_util_percent",
+      "mean": 99.84488330340537,
+      "median": 99.83340799618718,
+      "std": 0.05672088226281119,
+      "variance": 0.003217258484671689,
+      "min": 99.7818668609896,
+      "max": 99.91937505303929,
+      "range": 0.1375081920496939,
+      "q1": 99.80763742858838,
+      "q3": 99.87639152461324,
+      "iqr": 0.06875409602486116,
+      "skewness": 0.2951871482744842,
+      "kurtosis": -1.5000000000002958,
+      "cv": 0.05680900251087442
+    }
+  ],
+  "comparative_statistics": {
+    "encryption_time_ms": {
+      "test": "One-way ANOVA",
+      "f_statistic": 1.2268189650506007,
+      "p_value": 0.35511377584873655,
+      "significant": false,
+      "groups": [
+        "PRESENT-80",
+        "PRESENT-128",
+        "SIMON-64/128",
+        "SPECK-64/128",
+        "GIFT-64/128",
+        "TinyJambu-128"
+      ],
+      "interpretation": "No significant differences",
+      "pairwise": [
+        {
+          "group1": "PRESENT-80",
+          "group2": "PRESENT-128",
+          "t_statistic": -0.015612825509417708,
+          "p_value": 0.9882909754841622,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SIMON-64/128",
+          "t_statistic": 1.3933871239797038,
+          "p_value": 0.23593789608294077,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SPECK-64/128",
+          "t_statistic": 1.563473373435404,
+          "p_value": 0.19298218781887153,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "GIFT-64/128",
+          "t_statistic": 0.19139159949702422,
+          "p_value": 0.8575413095615019,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "TinyJambu-128",
+          "t_statistic": 1.323287338631811,
+          "p_value": 0.25631036919841965,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SIMON-64/128",
+          "t_statistic": 1.3914164371471756,
+          "p_value": 0.2364881781276181,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SPECK-64/128",
+          "t_statistic": 1.5583553545042357,
+          "p_value": 0.19415087188111504,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "GIFT-64/128",
+          "t_statistic": 0.20627841199137165,
+          "p_value": 0.8466474994409138,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 1.3222723403258405,
+          "p_value": 0.2566176637306965,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "SPECK-64/128",
+          "t_statistic": 1.0188815894518009,
+          "p_value": 0.365870960776638,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": -1.3500718560886116,
+          "p_value": 0.24832990123767038,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": -0.5840334957250796,
+          "p_value": 0.5905479307735217,
+          "significant": false
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": -1.5532195178074713,
+          "p_value": 0.1953309349951298,
+          "significant": false
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": -3.9245430654425597,
+          "p_value": 0.01718177773580928,
+          "significant": true
+        },
+        {
+          "group1": "GIFT-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 1.2695294971588873,
+          "p_value": 0.27308691441772337,
+          "significant": false
+        }
+      ]
+    },
+    "throughput_mbps": {
+      "test": "One-way ANOVA",
+      "f_statistic": 10.750329954747771,
+      "p_value": 0.00041992185817029743,
+      "significant": true,
+      "groups": [
+        "PRESENT-80",
+        "PRESENT-128",
+        "SIMON-64/128",
+        "SPECK-64/128",
+        "GIFT-64/128",
+        "TinyJambu-128"
+      ],
+      "interpretation": "Significant differences exist",
+      "pairwise": [
+        {
+          "group1": "PRESENT-80",
+          "group2": "PRESENT-128",
+          "t_statistic": 0.41977418663603333,
+          "p_value": 0.6962164464233801,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SIMON-64/128",
+          "t_statistic": -8.751879408182342,
+          "p_value": 0.0009394222468676323,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SPECK-64/128",
+          "t_statistic": -5.689453044072996,
+          "p_value": 0.004713340410491749,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "GIFT-64/128",
+          "t_statistic": -4.586924079967184,
+          "p_value": 0.010130320736817407,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "TinyJambu-128",
+          "t_statistic": -1.3388324990934066,
+          "p_value": 0.2516486343120862,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SIMON-64/128",
+          "t_statistic": -8.761154470002646,
+          "p_value": 0.0009356145726671482,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SPECK-64/128",
+          "t_statistic": -5.692662802411561,
+          "p_value": 0.004703695814041659,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "GIFT-64/128",
+          "t_statistic": -4.458748857700798,
+          "p_value": 0.011171066474307378,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "TinyJambu-128",
+          "t_statistic": -1.3413788213238376,
+          "p_value": 0.25089297565332797,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "SPECK-64/128",
+          "t_statistic": -3.1064219895180916,
+          "p_value": 0.035996387393402864,
+          "significant": true
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": 8.442327920460189,
+          "p_value": 0.00107828513011643,
+          "significant": true
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 0.537529983067976,
+          "p_value": 0.6194118036567586,
+          "significant": false
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": 5.606099967597658,
+          "p_value": 0.0049725000822217385,
+          "significant": true
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 2.4003232502098175,
+          "p_value": 0.07433026315372193,
+          "significant": false
+        },
+        {
+          "group1": "GIFT-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": -1.275444264585724,
+          "p_value": 0.271190388225022,
+          "significant": false
+        }
+      ]
+    },
+    "memory_peak_kb": {
+      "test": "One-way ANOVA",
+      "f_statistic": 11.479967617798055,
+      "p_value": 0.00030815093360266516,
+      "significant": true,
+      "groups": [
+        "PRESENT-80",
+        "PRESENT-128",
+        "SIMON-64/128",
+        "SPECK-64/128",
+        "GIFT-64/128",
+        "TinyJambu-128"
+      ],
+      "interpretation": "Significant differences exist",
+      "pairwise": [
+        {
+          "group1": "PRESENT-80",
+          "group2": "PRESENT-128",
+          "t_statistic": -0.07619307082485993,
+          "p_value": 0.9429242057893851,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SIMON-64/128",
+          "t_statistic": -1.493485361248966,
+          "p_value": 0.2096073095053261,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "SPECK-64/128",
+          "t_statistic": -2.222188329240806,
+          "p_value": 0.0903920609040123,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "GIFT-64/128",
+          "t_statistic": -0.3181030529957909,
+          "p_value": 0.7663221266048816,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-80",
+          "group2": "TinyJambu-128",
+          "t_statistic": 4.3877617433125735,
+          "p_value": 0.011803196784133475,
+          "significant": true
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SIMON-64/128",
+          "t_statistic": -1.3211707627583966,
+          "p_value": 0.256951576635973,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "SPECK-64/128",
+          "t_statistic": -1.8982231616121816,
+          "p_value": 0.13050607930069322,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "GIFT-64/128",
+          "t_statistic": -0.19648271602936243,
+          "p_value": 0.8538112790673297,
+          "significant": false
+        },
+        {
+          "group1": "PRESENT-128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 4.1171010308326155,
+          "p_value": 0.014647022448112099,
+          "significant": true
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "SPECK-64/128",
+          "t_statistic": -0.2942005681257014,
+          "p_value": 0.7832400083458804,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": 1.6620444985276301,
+          "p_value": 0.17183892135548054,
+          "significant": false
+        },
+        {
+          "group1": "SIMON-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 6.940948011091435,
+          "p_value": 0.0022628058291546986,
+          "significant": true
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "GIFT-64/128",
+          "t_statistic": 4.080291970802923,
+          "p_value": 0.015094808871104686,
+          "significant": true
+        },
+        {
+          "group1": "SPECK-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 14.708333333333334,
+          "p_value": 0.00012434581245182813,
+          "significant": true
+        },
+        {
+          "group1": "GIFT-64/128",
+          "group2": "TinyJambu-128",
+          "t_statistic": 7.843683878621599,
+          "p_value": 0.001426978450200492,
+          "significant": true
+        }
+      ]
+    }
+  },
+  "correlation_analysis": {
+    "correlation_matrix": {
+      "block_size": {
+        "block_size": 1.0,
+        "key_size": -0.20000000000000026,
+        "message_size_bytes": 0.0,
+        "message_size_bits": 0.0,
+        "data_size_bytes": 0.0,
+        "encryption_time_ms": 0.21532129518723123,
+        "encryption_time_std_ms": 0.10488746008842377,
+        "encryption_time_p95_ms": 0.20506277889054486,
+        "decryption_time_ms": 0.22499461994272196,
+        "decryption_time_std_ms": 0.20577360890352822,
+        "decryption_time_p95_ms": 0.22406271163918492,
+        "latency_time_ms": 0.22059426660156173,
+        "response_time_ms": 0.22059426660156173,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.01642456236731571,
+        "memory_current_kb": -0.9043581198462286,
+        "memory_peak_kb": 0.8427402714601968,
+        "process_cpu_time_sec": 0.0,
+        "process_cpu_util_percent": -0.15007202074660528,
+        "iterations_per_second": 0.13950655092507908,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "key_size": {
+        "block_size": -0.20000000000000026,
+        "key_size": 1.0,
+        "message_size_bytes": 3.405007433256528e-17,
+        "message_size_bits": 3.405007433256528e-17,
+        "data_size_bytes": 3.405007433256528e-17,
+        "encryption_time_ms": -0.28536683042532945,
+        "encryption_time_std_ms": -0.3303257069178854,
+        "encryption_time_p95_ms": -0.29212597005778124,
+        "decryption_time_ms": -0.3061487806840206,
+        "decryption_time_std_ms": -0.48431029200351317,
+        "decryption_time_p95_ms": -0.32159803606838044,
+        "latency_time_ms": -0.29666089300819787,
+        "response_time_ms": -0.29666089300819787,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.3300466678421761,
+        "memory_current_kb": 0.29362276618384303,
+        "memory_peak_kb": -0.006274949207409295,
+        "process_cpu_time_sec": -0.3162277660168486,
+        "process_cpu_util_percent": -0.0866984538216402,
+        "iterations_per_second": 0.22071058983425612,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "message_size_bytes": {
+        "block_size": 0.0,
+        "key_size": 3.405007433256528e-17,
+        "message_size_bytes": 1.0,
+        "message_size_bits": 1.0,
+        "data_size_bytes": 1.0,
+        "encryption_time_ms": 0.6142282433432076,
+        "encryption_time_std_ms": 0.5853546711671996,
+        "encryption_time_p95_ms": 0.6198407957543729,
+        "decryption_time_ms": 0.6008464464962433,
+        "decryption_time_std_ms": 0.45463172791386036,
+        "decryption_time_p95_ms": 0.6039230035442253,
+        "latency_time_ms": 0.6071101349086416,
+        "response_time_ms": 0.6071101349086416,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.2661699124138566,
+        "memory_current_kb": 0.08509996252056701,
+        "memory_peak_kb": 0.3575878747526163,
+        "process_cpu_time_sec": 0.43643578047198406,
+        "process_cpu_util_percent": 0.009373554711289013,
+        "iterations_per_second": -0.3660204448943219,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "message_size_bits": {
+        "block_size": 0.0,
+        "key_size": 3.405007433256528e-17,
+        "message_size_bytes": 1.0,
+        "message_size_bits": 1.0,
+        "data_size_bytes": 1.0,
+        "encryption_time_ms": 0.6142282433432076,
+        "encryption_time_std_ms": 0.5853546711671996,
+        "encryption_time_p95_ms": 0.6198407957543729,
+        "decryption_time_ms": 0.6008464464962433,
+        "decryption_time_std_ms": 0.45463172791386036,
+        "decryption_time_p95_ms": 0.6039230035442253,
+        "latency_time_ms": 0.6071101349086416,
+        "response_time_ms": 0.6071101349086416,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.2661699124138566,
+        "memory_current_kb": 0.08509996252056701,
+        "memory_peak_kb": 0.3575878747526163,
+        "process_cpu_time_sec": 0.43643578047198406,
+        "process_cpu_util_percent": 0.009373554711289013,
+        "iterations_per_second": -0.3660204448943219,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "data_size_bytes": {
+        "block_size": 0.0,
+        "key_size": 3.405007433256528e-17,
+        "message_size_bytes": 1.0,
+        "message_size_bits": 1.0,
+        "data_size_bytes": 1.0,
+        "encryption_time_ms": 0.6142282433432076,
+        "encryption_time_std_ms": 0.5853546711671996,
+        "encryption_time_p95_ms": 0.6198407957543729,
+        "decryption_time_ms": 0.6008464464962433,
+        "decryption_time_std_ms": 0.45463172791386036,
+        "decryption_time_p95_ms": 0.6039230035442253,
+        "latency_time_ms": 0.6071101349086416,
+        "response_time_ms": 0.6071101349086416,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.2661699124138566,
+        "memory_current_kb": 0.08509996252056701,
+        "memory_peak_kb": 0.3575878747526163,
+        "process_cpu_time_sec": 0.43643578047198406,
+        "process_cpu_util_percent": 0.009373554711289013,
+        "iterations_per_second": -0.3660204448943219,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "encryption_time_ms": {
+        "block_size": 0.21532129518723123,
+        "key_size": -0.28536683042532945,
+        "message_size_bytes": 0.6142282433432076,
+        "message_size_bits": 0.6142282433432076,
+        "data_size_bytes": 0.6142282433432076,
+        "encryption_time_ms": 1.0,
+        "encryption_time_std_ms": 0.945206759257239,
+        "encryption_time_p95_ms": 0.9993993822885453,
+        "decryption_time_ms": 0.9992216098889903,
+        "decryption_time_std_ms": 0.8756928734589904,
+        "decryption_time_p95_ms": 0.9978964858607202,
+        "latency_time_ms": 0.9997724109538837,
+        "response_time_ms": 0.9997724109538837,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.43439649492953264,
+        "memory_current_kb": -0.03453100459477221,
+        "memory_peak_kb": 0.28712519529873376,
+        "process_cpu_time_sec": 0.5423053710274409,
+        "process_cpu_util_percent": -0.20333931551983606,
+        "iterations_per_second": -0.4050755017237608,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "encryption_time_std_ms": {
+        "block_size": 0.10488746008842377,
+        "key_size": -0.3303257069178854,
+        "message_size_bytes": 0.5853546711671996,
+        "message_size_bits": 0.5853546711671996,
+        "data_size_bytes": 0.5853546711671996,
+        "encryption_time_ms": 0.945206759257239,
+        "encryption_time_std_ms": 1.0,
+        "encryption_time_p95_ms": 0.9540116373411,
+        "decryption_time_ms": 0.9431051819700705,
+        "decryption_time_std_ms": 0.8701567237169519,
+        "decryption_time_p95_ms": 0.9455859255880567,
+        "latency_time_ms": 0.9442529952604019,
+        "response_time_ms": 0.9442529952604019,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.4864594418938936,
+        "memory_current_kb": -0.0062426630508990956,
+        "memory_peak_kb": 0.1714773256960505,
+        "process_cpu_time_sec": 0.5379774821685614,
+        "process_cpu_util_percent": -0.16370257662291698,
+        "iterations_per_second": -0.4717301193620007,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "encryption_time_p95_ms": {
+        "block_size": 0.20506277889054486,
+        "key_size": -0.29212597005778124,
+        "message_size_bytes": 0.6198407957543729,
+        "message_size_bits": 0.6198407957543729,
+        "data_size_bytes": 0.6198407957543729,
+        "encryption_time_ms": 0.9993993822885453,
+        "encryption_time_std_ms": 0.9540116373411,
+        "encryption_time_p95_ms": 1.0,
+        "decryption_time_ms": 0.9982636471835917,
+        "decryption_time_std_ms": 0.8763654178946825,
+        "decryption_time_p95_ms": 0.9975247655673233,
+        "latency_time_ms": 0.9989784248615107,
+        "response_time_ms": 0.9989784248615107,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.43456083059329836,
+        "memory_current_kb": -0.029851335578757087,
+        "memory_peak_kb": 0.28143398083898896,
+        "process_cpu_time_sec": 0.5476078396536824,
+        "process_cpu_util_percent": -0.1973767543580855,
+        "iterations_per_second": -0.4092386054008118,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "decryption_time_ms": {
+        "block_size": 0.22499461994272196,
+        "key_size": -0.3061487806840206,
+        "message_size_bytes": 0.6008464464962433,
+        "message_size_bits": 0.6008464464962433,
+        "data_size_bytes": 0.6008464464962433,
+        "encryption_time_ms": 0.9992216098889903,
+        "encryption_time_std_ms": 0.9431051819700705,
+        "encryption_time_p95_ms": 0.9982636471835917,
+        "decryption_time_ms": 1.0,
+        "decryption_time_std_ms": 0.889633182625469,
+        "decryption_time_p95_ms": 0.9992810380879431,
+        "latency_time_ms": 0.9998357773791743,
+        "response_time_ms": 0.9998357773791743,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.43572110235071776,
+        "memory_current_kb": -0.04633018917319231,
+        "memory_peak_kb": 0.29023402422228584,
+        "process_cpu_time_sec": 0.5516334179353323,
+        "process_cpu_util_percent": -0.1941862579978098,
+        "iterations_per_second": -0.39681500366300093,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "decryption_time_std_ms": {
+        "block_size": 0.20577360890352822,
+        "key_size": -0.48431029200351317,
+        "message_size_bytes": 0.45463172791386036,
+        "message_size_bits": 0.45463172791386036,
+        "data_size_bytes": 0.45463172791386036,
+        "encryption_time_ms": 0.8756928734589904,
+        "encryption_time_std_ms": 0.8701567237169519,
+        "encryption_time_p95_ms": 0.8763654178946825,
+        "decryption_time_ms": 0.889633182625469,
+        "decryption_time_std_ms": 1.0,
+        "decryption_time_p95_ms": 0.9007212010549495,
+        "latency_time_ms": 0.8834011232852595,
+        "response_time_ms": 0.8834011232852595,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.42955611814199673,
+        "memory_current_kb": -0.11853271825022342,
+        "memory_peak_kb": 0.20179998422837658,
+        "process_cpu_time_sec": 0.497454297573919,
+        "process_cpu_util_percent": -0.18466414203615586,
+        "iterations_per_second": -0.41195177931044047,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "decryption_time_p95_ms": {
+        "block_size": 0.22406271163918492,
+        "key_size": -0.32159803606838044,
+        "message_size_bytes": 0.6039230035442253,
+        "message_size_bits": 0.6039230035442253,
+        "data_size_bytes": 0.6039230035442253,
+        "encryption_time_ms": 0.9978964858607202,
+        "encryption_time_std_ms": 0.9455859255880567,
+        "encryption_time_p95_ms": 0.9975247655673233,
+        "decryption_time_ms": 0.9992810380879431,
+        "decryption_time_std_ms": 0.9007212010549495,
+        "decryption_time_p95_ms": 1.0,
+        "latency_time_ms": 0.9988382097102826,
+        "response_time_ms": 0.9988382097102826,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.42606277793640895,
+        "memory_current_kb": -0.051603573180998466,
+        "memory_peak_kb": 0.2926638004273348,
+        "process_cpu_time_sec": 0.5627730873096466,
+        "process_cpu_util_percent": -0.18321358154896694,
+        "iterations_per_second": -0.39360941766329116,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "latency_time_ms": {
+        "block_size": 0.22059426660156173,
+        "key_size": -0.29666089300819787,
+        "message_size_bytes": 0.6071101349086416,
+        "message_size_bits": 0.6071101349086416,
+        "data_size_bytes": 0.6071101349086416,
+        "encryption_time_ms": 0.9997724109538837,
+        "encryption_time_std_ms": 0.9442529952604019,
+        "encryption_time_p95_ms": 0.9989784248615107,
+        "decryption_time_ms": 0.9998357773791743,
+        "decryption_time_std_ms": 0.8834011232852595,
+        "decryption_time_p95_ms": 0.9988382097102826,
+        "latency_time_ms": 1.0,
+        "response_time_ms": 1.0,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.43519683973433715,
+        "memory_current_kb": -0.04091868299788529,
+        "memory_peak_kb": 0.28886197040378564,
+        "process_cpu_time_sec": 0.547454843219406,
+        "process_cpu_util_percent": -0.19842865881804098,
+        "iterations_per_second": -0.40068654996606473,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "response_time_ms": {
+        "block_size": 0.22059426660156173,
+        "key_size": -0.29666089300819787,
+        "message_size_bytes": 0.6071101349086416,
+        "message_size_bits": 0.6071101349086416,
+        "data_size_bytes": 0.6071101349086416,
+        "encryption_time_ms": 0.9997724109538837,
+        "encryption_time_std_ms": 0.9442529952604019,
+        "encryption_time_p95_ms": 0.9989784248615107,
+        "decryption_time_ms": 0.9998357773791743,
+        "decryption_time_std_ms": 0.8834011232852595,
+        "decryption_time_p95_ms": 0.9988382097102826,
+        "latency_time_ms": 1.0,
+        "response_time_ms": 1.0,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.43519683973433715,
+        "memory_current_kb": -0.04091868299788529,
+        "memory_peak_kb": 0.28886197040378564,
+        "process_cpu_time_sec": 0.547454843219406,
+        "process_cpu_util_percent": -0.19842865881804098,
+        "iterations_per_second": -0.40068654996606473,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "network_delay_ms": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "throughput_mbps": {
+        "block_size": -0.01642456236731571,
+        "key_size": 0.3300466678421761,
+        "message_size_bytes": 0.2661699124138566,
+        "message_size_bits": 0.2661699124138566,
+        "data_size_bytes": 0.2661699124138566,
+        "encryption_time_ms": -0.43439649492953264,
+        "encryption_time_std_ms": -0.4864594418938936,
+        "encryption_time_p95_ms": -0.43456083059329836,
+        "decryption_time_ms": -0.43572110235071776,
+        "decryption_time_std_ms": -0.42955611814199673,
+        "decryption_time_p95_ms": -0.42606277793640895,
+        "latency_time_ms": -0.43519683973433715,
+        "response_time_ms": -0.43519683973433715,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 1.0,
+        "memory_current_kb": 0.0011977968787808659,
+        "memory_peak_kb": 0.3181938222790821,
+        "process_cpu_time_sec": -0.005838441713741744,
+        "process_cpu_util_percent": 0.3552690407416623,
+        "iterations_per_second": 0.4785044577777442,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "memory_current_kb": {
+        "block_size": -0.9043581198462286,
+        "key_size": 0.29362276618384303,
+        "message_size_bytes": 0.08509996252056701,
+        "message_size_bits": 0.08509996252056701,
+        "data_size_bytes": 0.08509996252056701,
+        "encryption_time_ms": -0.03453100459477221,
+        "encryption_time_std_ms": -0.0062426630508990956,
+        "encryption_time_p95_ms": -0.029851335578757087,
+        "decryption_time_ms": -0.04633018917319231,
+        "decryption_time_std_ms": -0.11853271825022342,
+        "decryption_time_p95_ms": -0.051603573180998466,
+        "latency_time_ms": -0.04091868299788529,
+        "response_time_ms": -0.04091868299788529,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.0011977968787808659,
+        "memory_current_kb": 1.0,
+        "memory_peak_kb": -0.7447405397736998,
+        "process_cpu_time_sec": 0.03481937677574864,
+        "process_cpu_util_percent": 0.04511752594328249,
+        "iterations_per_second": -0.12534714537025154,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "memory_peak_kb": {
+        "block_size": 0.8427402714601968,
+        "key_size": -0.006274949207409295,
+        "message_size_bytes": 0.3575878747526163,
+        "message_size_bits": 0.3575878747526163,
+        "data_size_bytes": 0.3575878747526163,
+        "encryption_time_ms": 0.28712519529873376,
+        "encryption_time_std_ms": 0.1714773256960505,
+        "encryption_time_p95_ms": 0.28143398083898896,
+        "decryption_time_ms": 0.29023402422228584,
+        "decryption_time_std_ms": 0.20179998422837658,
+        "decryption_time_p95_ms": 0.2926638004273348,
+        "latency_time_ms": 0.28886197040378564,
+        "response_time_ms": 0.28886197040378564,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.3181938222790821,
+        "memory_current_kb": -0.7447405397736998,
+        "memory_peak_kb": 1.0,
+        "process_cpu_time_sec": 0.23442583493531896,
+        "process_cpu_util_percent": 0.0692421781129037,
+        "iterations_per_second": 0.2696534785706546,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "process_cpu_time_sec": {
+        "block_size": 0.0,
+        "key_size": -0.3162277660168486,
+        "message_size_bytes": 0.43643578047198406,
+        "message_size_bits": 0.43643578047198406,
+        "data_size_bytes": 0.43643578047198406,
+        "encryption_time_ms": 0.5423053710274409,
+        "encryption_time_std_ms": 0.5379774821685614,
+        "encryption_time_p95_ms": 0.5476078396536824,
+        "decryption_time_ms": 0.5516334179353323,
+        "decryption_time_std_ms": 0.497454297573919,
+        "decryption_time_p95_ms": 0.5627730873096466,
+        "latency_time_ms": 0.547454843219406,
+        "response_time_ms": 0.547454843219406,
+        "network_delay_ms": NaN,
+        "throughput_mbps": -0.005838441713741744,
+        "memory_current_kb": 0.03481937677574864,
+        "memory_peak_kb": 0.23442583493531896,
+        "process_cpu_time_sec": 1.0,
+        "process_cpu_util_percent": 0.7051583050332965,
+        "iterations_per_second": -0.02227563382973968,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "process_cpu_util_percent": {
+        "block_size": -0.15007202074660528,
+        "key_size": -0.0866984538216402,
+        "message_size_bytes": 0.009373554711289013,
+        "message_size_bits": 0.009373554711289013,
+        "data_size_bytes": 0.009373554711289013,
+        "encryption_time_ms": -0.20333931551983606,
+        "encryption_time_std_ms": -0.16370257662291698,
+        "encryption_time_p95_ms": -0.1973767543580855,
+        "decryption_time_ms": -0.1941862579978098,
+        "decryption_time_std_ms": -0.18466414203615586,
+        "decryption_time_p95_ms": -0.18321358154896694,
+        "latency_time_ms": -0.19842865881804098,
+        "response_time_ms": -0.19842865881804098,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.3552690407416623,
+        "memory_current_kb": 0.04511752594328249,
+        "memory_peak_kb": 0.0692421781129037,
+        "process_cpu_time_sec": 0.7051583050332965,
+        "process_cpu_util_percent": 1.0,
+        "iterations_per_second": 0.2975915342786293,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "iterations_per_second": {
+        "block_size": 0.13950655092507908,
+        "key_size": 0.22071058983425612,
+        "message_size_bytes": -0.3660204448943219,
+        "message_size_bits": -0.3660204448943219,
+        "data_size_bytes": -0.3660204448943219,
+        "encryption_time_ms": -0.4050755017237608,
+        "encryption_time_std_ms": -0.4717301193620007,
+        "encryption_time_p95_ms": -0.4092386054008118,
+        "decryption_time_ms": -0.39681500366300093,
+        "decryption_time_std_ms": -0.41195177931044047,
+        "decryption_time_p95_ms": -0.39360941766329116,
+        "latency_time_ms": -0.40068654996606473,
+        "response_time_ms": -0.40068654996606473,
+        "network_delay_ms": NaN,
+        "throughput_mbps": 0.4785044577777442,
+        "memory_current_kb": -0.12534714537025154,
+        "memory_peak_kb": 0.2696534785706546,
+        "process_cpu_time_sec": -0.02227563382973968,
+        "process_cpu_util_percent": 0.2975915342786293,
+        "iterations_per_second": 1.0,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "benchmark_iterations": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "throughput_iterations": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "cpu_measure_duration_sec": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "cpu_count_logical": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "cpu_count_physical": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      },
+      "memory_total_gb": {
+        "block_size": NaN,
+        "key_size": NaN,
+        "message_size_bytes": NaN,
+        "message_size_bits": NaN,
+        "data_size_bytes": NaN,
+        "encryption_time_ms": NaN,
+        "encryption_time_std_ms": NaN,
+        "encryption_time_p95_ms": NaN,
+        "decryption_time_ms": NaN,
+        "decryption_time_std_ms": NaN,
+        "decryption_time_p95_ms": NaN,
+        "latency_time_ms": NaN,
+        "response_time_ms": NaN,
+        "network_delay_ms": NaN,
+        "throughput_mbps": NaN,
+        "memory_current_kb": NaN,
+        "memory_peak_kb": NaN,
+        "process_cpu_time_sec": NaN,
+        "process_cpu_util_percent": NaN,
+        "iterations_per_second": NaN,
+        "benchmark_iterations": NaN,
+        "throughput_iterations": NaN,
+        "cpu_measure_duration_sec": NaN,
+        "cpu_count_logical": NaN,
+        "cpu_count_physical": NaN,
+        "memory_total_gb": NaN
+      }
+    },
+    "strong_correlations": [
+      {
+        "variable1": "block_size",
+        "variable2": "memory_current_kb",
+        "correlation": -0.9043581198462286,
+        "strength": "strong negative"
+      },
+      {
+        "variable1": "block_size",
+        "variable2": "memory_peak_kb",
+        "correlation": 0.8427402714601968,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "message_size_bytes",
+        "variable2": "message_size_bits",
+        "correlation": 1.0,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "message_size_bytes",
+        "variable2": "data_size_bytes",
+        "correlation": 1.0,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "message_size_bits",
+        "variable2": "data_size_bytes",
+        "correlation": 1.0,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "encryption_time_std_ms",
+        "correlation": 0.945206759257239,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "encryption_time_p95_ms",
+        "correlation": 0.9993993822885453,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "decryption_time_ms",
+        "correlation": 0.9992216098889903,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "decryption_time_std_ms",
+        "correlation": 0.8756928734589904,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "decryption_time_p95_ms",
+        "correlation": 0.9978964858607202,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.9997724109538837,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.9997724109538837,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "encryption_time_p95_ms",
+        "correlation": 0.9540116373411,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "decryption_time_ms",
+        "correlation": 0.9431051819700705,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "decryption_time_std_ms",
+        "correlation": 0.8701567237169519,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "decryption_time_p95_ms",
+        "correlation": 0.9455859255880567,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.9442529952604019,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_std_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.9442529952604019,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_p95_ms",
+        "variable2": "decryption_time_ms",
+        "correlation": 0.9982636471835917,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_p95_ms",
+        "variable2": "decryption_time_std_ms",
+        "correlation": 0.8763654178946825,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_p95_ms",
+        "variable2": "decryption_time_p95_ms",
+        "correlation": 0.9975247655673233,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_p95_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.9989784248615107,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "encryption_time_p95_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.9989784248615107,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_ms",
+        "variable2": "decryption_time_std_ms",
+        "correlation": 0.889633182625469,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_ms",
+        "variable2": "decryption_time_p95_ms",
+        "correlation": 0.9992810380879431,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.9998357773791743,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.9998357773791743,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_std_ms",
+        "variable2": "decryption_time_p95_ms",
+        "correlation": 0.9007212010549495,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_std_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.8834011232852595,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_std_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.8834011232852595,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_p95_ms",
+        "variable2": "latency_time_ms",
+        "correlation": 0.9988382097102826,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "decryption_time_p95_ms",
+        "variable2": "response_time_ms",
+        "correlation": 0.9988382097102826,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "latency_time_ms",
+        "variable2": "response_time_ms",
+        "correlation": 1.0,
+        "strength": "strong positive"
+      },
+      {
+        "variable1": "memory_current_kb",
+        "variable2": "memory_peak_kb",
+        "correlation": -0.7447405397736998,
+        "strength": "strong negative"
+      },
+      {
+        "variable1": "process_cpu_time_sec",
+        "variable2": "process_cpu_util_percent",
+        "correlation": 0.7051583050332965,
+        "strength": "strong positive"
+      }
+    ],
+    "specific_correlations": {
+      "encryption_time_ms_vs_decryption_time_ms": {
+        "pearson": {
+          "r": 0.9992216098889904,
+          "p_value": 6.75873127274601e-24
+        },
+        "spearman": {
+          "rho": 0.9876160990712075,
+          "p_value": 2.675612707134943e-14
+        },
+        "interpretation": "Very strong correlation"
+      },
+      "throughput_mbps_vs_memory_peak_kb": {
+        "pearson": {
+          "r": 0.3181938222790819,
+          "p_value": 0.19815552050428936
+        },
+        "spearman": {
+          "rho": 0.3022788904087705,
+          "p_value": 0.22278145556683224
+        },
+        "interpretation": "Weak correlation"
+      },
+      "process_cpu_util_percent_vs_encryption_time_ms": {
+        "pearson": {
+          "r": -0.20333931551983633,
+          "p_value": 0.4183603575805128
+        },
+        "spearman": {
+          "rho": -0.5603715170278638,
+          "p_value": 0.0155691221165936
+        },
+        "interpretation": "Very weak or no correlation"
+      }
+    }
+  },
+  "trend_analysis": {
+    "PRESENT-80": {
+      "linear_trend": {
+        "slope": 0.07142637350279119,
+        "intercept": 0.7512278317396254,
+        "r_squared": 0.9999320738357624,
+        "interpretation": "Time increases by 0.0714ms per byte"
+      },
+      "quadratic_trend": {
+        "a": -1.4869943773495443e-05,
+        "b": 0.07567492886664699,
+        "c": 0.621799841135119
+      },
+      "scaling_factor": "Near-linear scaling (efficient)"
+    },
+    "PRESENT-128": {
+      "linear_trend": {
+        "slope": 0.07268705357221605,
+        "intercept": 0.7266923330219792,
+        "r_squared": 0.9999998569197031,
+        "interpretation": "Time increases by 0.0727ms per byte"
+      },
+      "quadratic_trend": {
+        "a": 6.944875142126725e-07,
+        "b": 0.07248862856815527,
+        "c": 0.7327371523456871
+      },
+      "scaling_factor": "Near-linear scaling (efficient)"
+    },
+    "SIMON-64/128": {
+      "linear_trend": {
+        "slope": 0.010254351182950254,
+        "intercept": 0.2301620023596727,
+        "r_squared": 0.9999305630656883,
+        "interpretation": "Time increases by 0.0103ms per byte"
+      },
+      "quadratic_trend": {
+        "a": 2.1584200390457206e-06,
+        "b": 0.009637659743222901,
+        "c": 0.2489488903795261
+      },
+      "scaling_factor": "Sub-linear scaling (very efficient)"
+    },
+    "SPECK-64/128": {
+      "linear_trend": {
+        "slope": 0.0043029821496193554,
+        "intercept": 0.06590466471000922,
+        "r_squared": 0.999743813133346,
+        "interpretation": "Time increases by 0.0043ms per byte"
+      },
+      "quadratic_trend": {
+        "a": 1.739886998721989e-06,
+        "b": 0.0038058715785559295,
+        "c": 0.08104864114688519
+      },
+      "scaling_factor": "Near-linear scaling (efficient)"
+    },
+    "GIFT-64/128": {
+      "linear_trend": {
+        "slope": 0.0603535119210262,
+        "intercept": 0.6791096655069884,
+        "r_squared": 0.9999657312508666,
+        "interpretation": "Time increases by 0.0604ms per byte"
+      },
+      "quadratic_trend": {
+        "a": 8.92434896589567e-06,
+        "b": 0.05780369793077028,
+        "c": 0.7567871989061395
+      },
+      "scaling_factor": "Near-linear scaling (efficient)"
+    },
+    "TinyJambu-128": {
+      "linear_trend": {
+        "slope": 0.0010071726206834209,
+        "intercept": 1.7071026660657183,
+        "r_squared": 0.9923487687221054,
+        "interpretation": "Time increases by 0.0010ms per byte"
+      },
+      "quadratic_trend": {
+        "a": -2.2338542748911865e-06,
+        "b": 0.0016454166992237612,
+        "c": 1.687659198457065
+      },
+      "scaling_factor": "Sub-linear scaling (very efficient)"
+    }
+  },
+  "outlier_detection": {
+    "PRESENT-80": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -9.277014750696253,
+        "upper_bound": 25.105531246226747,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -11.205913248704746,
+        "upper_bound": 30.123120750067756,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 0.012936538370847966,
+        "upper_bound": 0.013490120174965833,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 5.183837890625,
+        "upper_bound": 6.447509765625,
+        "values": []
+      }
+    },
+    "PRESENT-128": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -9.44816175106098,
+        "upper_bound": 25.437052251509158,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -11.144523001130437,
+        "upper_bound": 29.762889001431176,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 0.012410441083626763,
+        "upper_bound": 0.013847075602390523,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 5.136962890625,
+        "upper_bound": 6.525634765625,
+        "values": []
+      }
+    },
+    "SIMON-64/128": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -1.201302996778395,
+        "upper_bound": 3.7065770002664067,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -1.1559372527699452,
+        "upper_bound": 3.556836752250092,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 0.05575204410541765,
+        "upper_bound": 0.10976243604950917,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 5.658447265625,
+        "upper_bound": 6.750244140625,
+        "values": []
+      }
+    },
+    "SPECK-64/128": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -0.5331722531991545,
+        "upper_bound": 1.5208057510608342,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -0.5609965008625295,
+        "upper_bound": 1.5981035005825106,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 0.07453971373451546,
+        "upper_bound": 0.26681646052537183,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 6.28125,
+        "upper_bound": 6.28125,
+        "values": []
+      }
+    },
+    "GIFT-64/128": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -7.75324725342216,
+        "upper_bound": 21.157690754334908,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -8.808796997036552,
+        "upper_bound": 23.713754998898366,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 0.013834281337918034,
+        "upper_bound": 0.01726209017634296,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 5.62744140625,
+        "upper_bound": 6.16259765625,
+        "values": []
+      }
+    },
+    "TinyJambu-128": {
+      "encryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 1.5618094989622477,
+        "upper_bound": 2.059957500459859,
+        "values": []
+      },
+      "decryption_time_ms": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 1.652450997644337,
+        "upper_bound": 1.9039430022530723,
+        "values": []
+      },
+      "throughput_mbps": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": -0.06366938865491771,
+        "upper_bound": 0.17631423318065353,
+        "values": []
+      },
+      "memory_peak_kb": {
+        "count": 0,
+        "indices": [],
+        "lower_bound": 4.59765625,
+        "upper_bound": 5.16015625,
+        "values": []
+      }
+    }
+  },
+  "confidence_intervals": [
+    {
+      "cipher": "PRESENT-80",
+      "metric": "encryption_time_ms",
+      "mean": 8.750981664052233,
+      "std": 7.4065844458951275,
+      "ci_lower": -13.783069509078317,
+      "ci_upper": 31.285032837182783,
+      "ci_width": 45.0681023462611,
+      "relative_ci_width": 515.006248172069
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "decryption_time_ms",
+      "mean": 10.4396813333733,
+      "std": 8.880905523785488,
+      "ci_lower": -16.57989577380893,
+      "ci_upper": 37.45925844055553,
+      "ci_width": 54.03915421436446,
+      "relative_ci_width": 517.6322196886748
+    },
+    {
+      "cipher": "PRESENT-80",
+      "metric": "throughput_mbps",
+      "mean": 0.013212436038069347,
+      "std": 0.00011302765233148332,
+      "ci_lower": 0.012868556761430838,
+      "ci_upper": 0.013556315314707856,
+      "ci_width": 0.0006877585532770181,
+      "relative_ci_width": 5.20538794886394
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "encryption_time_ms",
+      "mean": 8.867642333110174,
+      "std": 7.537055680527108,
+      "ci_lower": -14.063359080619874,
+      "ci_upper": 31.79864374684022,
+      "ci_width": 45.862002827460095,
+      "relative_ci_width": 517.1837237528138
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "decryption_time_ms",
+      "mean": 10.340339001074122,
+      "std": 8.844882312222529,
+      "ci_lower": -16.569639829235683,
+      "ci_upper": 37.250317831383924,
+      "ci_width": 53.81995766061961,
+      "relative_ci_width": 520.4854275573457
+    },
+    {
+      "cipher": "PRESENT-128",
+      "metric": "throughput_mbps",
+      "mean": 0.013118774002861502,
+      "std": 0.0002946084020747534,
+      "ci_lower": 0.012222447111987259,
+      "ci_upper": 0.014015100893735746,
+      "ci_width": 0.001792653781748487,
+      "relative_ci_width": 13.664796583563895
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 1.3786493348501,
+      "std": 1.0633295745675861,
+      "ci_lower": -1.8564616967251684,
+      "ci_upper": 4.613760366425368,
+      "ci_width": 6.470222063150537,
+      "relative_ci_width": 469.3160109386366
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 1.3059996662195772,
+      "std": 1.0072501658229367,
+      "ci_lower": -1.7584934137692212,
+      "ci_upper": 4.370492746208376,
+      "ci_width": 6.128986159977597,
+      "relative_ci_width": 469.29461917237063
+    },
+    {
+      "cipher": "SIMON-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.0821820647930994,
+      "std": 0.011144208411100594,
+      "ci_lower": 0.048276535941814844,
+      "ci_upper": 0.11608759364438397,
+      "ci_width": 0.06781105770256912,
+      "relative_ci_width": 82.51320756334054
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 0.5478386654673765,
+      "std": 0.44624134891286266,
+      "ci_lower": -0.809821598237883,
+      "ci_upper": 1.9054989291726359,
+      "ci_width": 2.715320527410519,
+      "relative_ci_width": 495.6423667347399
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 0.5753889998110632,
+      "std": 0.4691270898674536,
+      "ci_lower": -0.8518996413970784,
+      "ci_upper": 2.0026776410192046,
+      "ci_width": 2.854577282416283,
+      "relative_ci_width": 496.1125922382289
+    },
+    {
+      "cipher": "SPECK-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.17256644844533084,
+      "std": 0.03961007962012618,
+      "ci_lower": 0.05205535893410797,
+      "ci_upper": 0.2930775379565537,
+      "ci_width": 0.24102217902244577,
+      "relative_ci_width": 139.66920058553663
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "encryption_time_ms",
+      "mean": 7.438703000661917,
+      "std": 6.258274608514986,
+      "ci_lower": -11.6016902216065,
+      "ci_upper": 26.479096222930334,
+      "ci_width": 38.080786444536834,
+      "relative_ci_width": 511.92777075719107
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "decryption_time_ms",
+      "mean": 8.258280000688197,
+      "std": 7.018977004523111,
+      "ci_lower": -13.096500756670077,
+      "ci_upper": 29.613060758046473,
+      "ci_width": 42.70956151471655,
+      "relative_ci_width": 517.1726014516023
+    },
+    {
+      "cipher": "GIFT-64/128",
+      "metric": "throughput_mbps",
+      "mean": 0.015522932689036794,
+      "std": 0.0007033347704219476,
+      "ci_lower": 0.013383082421439561,
+      "ci_upper": 0.017662782956634027,
+      "ci_width": 0.004279700535194466,
+      "relative_ci_width": 27.570180332077594
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "encryption_time_ms",
+      "mean": 1.8199059995822608,
+      "std": 0.10483743132223104,
+      "ci_lower": 1.500944937363628,
+      "ci_upper": 2.1388670618008936,
+      "ci_width": 0.6379221244372655,
+      "relative_ci_width": 35.05247658855421
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "decryption_time_ms",
+      "mean": 1.7840760001369442,
+      "std": 0.05396150475071625,
+      "ci_lower": 1.6199016336236882,
+      "ci_upper": 1.9482503666502002,
+      "ci_width": 0.328348733026512,
+      "relative_ci_width": 18.40441399364759
+    },
+    {
+      "cipher": "TinyJambu-128",
+      "metric": "throughput_mbps",
+      "mean": 0.06210165942088077,
+      "std": 0.05164173801216145,
+      "ci_lower": -0.09501496775541379,
+      "ci_upper": 0.21921828659717535,
+      "ci_width": 0.31423325435258914,
+      "relative_ci_width": 505.99816056917285
+    }
+  ]
+}

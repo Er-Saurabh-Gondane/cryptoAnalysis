@@ -1,0 +1,8 @@
+{
+  "test_name": "Payload Tampering",
+  "original_valid": true,
+  "tampered_valid": false,
+  "tampered_message": "Replay attack detected",
+  "attack_blocked": true,
+  "tampering_type": "Modified sensor value"
+}
